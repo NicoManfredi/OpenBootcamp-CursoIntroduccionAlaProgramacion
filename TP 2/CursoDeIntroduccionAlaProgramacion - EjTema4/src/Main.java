@@ -37,22 +37,22 @@ public class Main {
 
 
 
-        var estacion = 1;
+        var estacion = "Verano";
 
         switch (estacion){
-            case 0:
+            case "Verano":
                 System.out.println("Es verano");
             break;
 
-            case 1:
+            case "Otoño":
                 System.out.println("Es Otoño");
             break;
 
-            case 2:
+            case "Invierno":
                 System.out.println("Es Invierno");
             break;
 
-            case 3:
+            case "Primavera":
                 System.out.println("Es Primavera");
             break;
 
